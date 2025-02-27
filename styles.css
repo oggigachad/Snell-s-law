@@ -1,0 +1,83 @@
+html, body {
+	background-color: #f4f4f4;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Modern Glassmorphic Menu */
+  .menu {
+	position: fixed;
+	width: 250px;
+	height: 270px;
+	top: 30px;
+	right: 10px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px);
+	border-radius: 12px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  /* Hover effect */
+  .menu:hover {
+	background: rgba(255, 255, 255, 0.3);
+	box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  a {
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 600;
+	color: #333;
+	transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+	color: #007BFF;
+  }
+  
+  /* Stylish Display Box */
+  .display {
+	position: fixed;
+	width: 140px;
+	height: 80px;
+	top: 10px;
+	left: 20px;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #222;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  /* Hover effect */
+  .display:hover {
+	background: rgba(255, 255, 255, 0.3);
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Draggable Point */
+  #dragPoint {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background: #007BFF;
+	border-radius: 50%;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease-in-out;
+  }
+  
+  #dragPoint:hover {
+	background: #0056b3;
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
